@@ -1,7 +1,7 @@
 ## An EEG-based Approach to Computerized Adaptive Testing
 Gabriel Ibagon and Dustin Wright
 
-![System Overview](/assets/EEG-CAT.png)
+![System Overview](assets/EEG-CAT.png)
 
 
 ### Overview
@@ -16,23 +16,23 @@ Adaptive technologies create a personalized form of human-computer interaction, 
 
 We designed a computerized, multiple-choice math exam that monitored a user's EEG data to adapt the order of question presentation.
 
-![System Overview](/assets/EEG-CAT.png)
+![System Overview](assets/EEG-CAT.png)
 
 While a user is taking the exam, their EEG data is being monitored and analyzed for the presence of neural signals associated with attention state. When a user answers a question, the test then selects the next question to present based on the current attention level. The test employs an algorithm that presents harder questions during periods of high attention, and easier questions during periods of low attention. A screenshot of a sample exam question can be seen here:
 
-![Screenshot](/assets/screenshot.png)
+![Screenshot](assets/screenshot.png)
 
 
 ### Adaptive Algorithm
 
 A baseline level of attention for the user is obtained based on an average of the first 20 seconds of EEG recording. This allows us to define a threshold for the individual user as 75\% of the user's starting level of attention. We heuristically chose 75\% of the user's initial attention level as an indication that the user was losing attention, and therefore may benefit from the presentation of easier questions. The exam begins with a question of moderate difficulty before employing the algorithm. When a question is answered, we observe the user's current level of attention, and compare this to their attention at the beginning of the question. If the difference of attention level is significant (heuristically chosen as 20 degrees lower) or their absolute level of attention is less than the threshold, we detect that their attention is beginning to wander, and the difficulty of the next question is decremented. Otherwise, it is incremented. This continues until the user has answered all of the questions in the test. A diagram of the algorithm is shown here:
 
-![Algorithm](/assets/algo.png)
+![Algorithm](assets/algo.png)
 
 
 An example recording of attention level over time and the algorithm's selection of question difficulty can be seen here:
 
-![Recording](/assets/recording.png)
+![Recording](assets/recording.png)
 
 
 
