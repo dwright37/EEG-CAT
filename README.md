@@ -1,7 +1,7 @@
 ## An EEG-based Approach to Computerized Adaptive Testing
 Gabriel Ibagon and Dustin Wright
 
-![System Overview](assets/EEG-CAT.png)
+![System Overview](assets/eeg-cat.png)
 
 
 ### Overview
@@ -16,7 +16,7 @@ Adaptive technologies create a personalized form of human-computer interaction, 
 
 We designed a computerized, multiple-choice math exam that monitored a user's EEG data to adapt the order of question presentation.
 
-![System Overview](assets/EEG-CAT.png)
+![System Overview](assets/eeg-cat.png)
 
 While a user is taking the exam, their EEG data is being monitored and analyzed for the presence of neural signals associated with attention state. When a user answers a question, the test then selects the next question to present based on the current attention level. The test employs an algorithm that presents harder questions during periods of high attention, and easier questions during periods of low attention. A screenshot of a sample exam question can be seen here:
 
