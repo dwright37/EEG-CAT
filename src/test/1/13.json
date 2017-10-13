@@ -1,0 +1,12 @@
+{
+    "questionFile": "./13.png",
+    "options": [ { "text": "A. 6", "value": "A"}, 
+                 { "text": "B. 7", "value": "B"}, 
+                 { "text": "C. 666", "value": "C"}, 
+                 { "text": "D. 667", "value": "D"}, 
+                 { "text": "E. There is no such least integer.", "value": "E"}],
+    "answerValue": "B",
+    "difficulty": 3,
+    "id": 13,
+	"comment": "page 71, #69"
+}

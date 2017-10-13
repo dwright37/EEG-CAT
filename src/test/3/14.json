@@ -1,0 +1,12 @@
+{
+    "questionFile": "./14.png",
+    "options": [ { "text": "A. n + 5", "value": "A"}, 
+                 { "text": "B. n + 10", "value": "B"}, 
+                 { "text": "C. n + 25", "value": "C"}, 
+                 { "text": "D. n + 35", "value": "D"}, 
+                 { "text": "E. n + 50", "value": "E"}],
+    "answerValue": "E",
+    "difficulty": 3,
+    "id": 34,
+	"comment": "page 175, #70"
+}

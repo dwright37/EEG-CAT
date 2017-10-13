@@ -1,0 +1,12 @@
+{
+    "questionFile": "./20.png",
+    "options": [ { "text": "A. x = -y and z = w", "value": "A"}, 
+                 { "text": "B. x > -y and z = w", "value": "B"}, 
+                 { "text": "C. x < -y and z > w", "value": "C"}, 
+                 { "text": "D. x = -y and z > w", "value": "D"}, 
+                 { "text": "E. x = -y and z < w", "value": "E"}],
+    "answerValue": "C",
+    "difficulty": 4,
+    "id": 20,
+	"comment": "page 106, #110"
+}

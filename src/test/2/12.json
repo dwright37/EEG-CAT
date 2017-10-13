@@ -1,0 +1,11 @@
+{
+    "questionFile": "./12.png",
+    "options": [ { "text": "A. Quantity A is greater.", "value": "A"}, 
+                 { "text": "B. Quantity B is greater.", "value": "B"}, 
+                 { "text": "C. The two quantities are the same.", "value": "C"}, 
+                 { "text": "D. The relationship cannot be determined from the information given.", "value": "D"}],
+    "answerValue": "D",
+    "difficulty": 2,
+    "id": 32,
+	"comment": "page 171, #57"
+}

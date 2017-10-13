@@ -1,0 +1,12 @@
+{
+    "questionFile": "./19.png",
+    "options": [ { "text": "A. A parabola symmetric about the x-axis", "value": "A"}, 
+                 { "text": "B. A line with slope 0", "value": "B"}, 
+                 { "text": "C. A line with slope 1", "value": "C"}, 
+                 { "text": "D. A line with negative slope", "value": "D"}, 
+                 { "text": "E. A semicircle centered at the origin", "value": "E"}],
+    "answerValue": "B",
+    "difficulty": 4,
+    "id": 39,
+	"comment": "page 186, #109"
+}

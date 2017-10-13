@@ -1,0 +1,12 @@
+{
+    "questionFile": "./12.png",
+    "options": [ { "text": "A. 12%", "value": "A"}, 
+                 { "text": "B. 18%", "value": "B"}, 
+                 { "text": "C. 30%", "value": "C"}, 
+                 { "text": "D. 40%", "value": "D"}, 
+                 { "text": "E. 70%", "value": "E"}],
+    "answerValue": "D",
+    "difficulty": 2,
+    "id": 12,
+	"comment": "page 66, #62"
+}

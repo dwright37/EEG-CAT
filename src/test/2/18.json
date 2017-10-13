@@ -1,0 +1,12 @@
+{
+    "questionFile": "./18.png",
+    "options": [ { "text": "A. n is less than 15", "value": "A"}, 
+                 { "text": "B. n is greater than 30", "value": "B"}, 
+                 { "text": "C. n is a multiple of 3", "value": "C"}, 
+                 { "text": "D. n is a multiple of 10", "value": "D"}, 
+                 { "text": "E. n is a multiple of 13", "value": "E"}],
+    "answerValue": "E",
+    "difficulty": 4,
+    "id": 38,
+	"comment": "page 184, #102"
+}

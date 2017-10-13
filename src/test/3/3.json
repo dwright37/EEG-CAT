@@ -1,0 +1,12 @@
+{
+    "questionFile": "./3.png",
+    "options": [ { "text": "A. 1", "value": "A"}, 
+                 { "text": "B. 2", "value": "B"}, 
+                 { "text": "C. 3", "value": "C"}, 
+                 { "text": "D. 4", "value": "D"}, 
+                 { "text": "E. 5", "value": "E"}],
+    "answerValue": "C",
+    "difficulty": 1,
+    "id": 23,
+	"comment": "page 159, #14"
+}
